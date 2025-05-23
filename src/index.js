@@ -5,7 +5,7 @@ const fetch = require("node-fetch"); // npm install node-fetch@2
 const app = express();
 app.use(cors());
 app.use(express.json());
-app.listen(3333);
+
 
 const apiKey = "AIzaSyBi5bzYsbkqGmQ_lgFUq_a8VCJm77tDs1s"; // coloque sua API Key aqui
 const model = "gemini-2.0-flash"; // ou outro modelo Gemini disponível
